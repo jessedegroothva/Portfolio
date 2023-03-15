@@ -142,13 +142,17 @@ main {
     display: flex;
     justify-content: center;
     margin: 80px 148px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 24px;
 }
 
 .left {
     width: 60%;
     border: 3px solid #1a27c9;
-    margin-right: 20px;
+    /* margin-right: 20px; */
     border-radius: 4px;
+    flex: 1 1 45%;
 }
 
 article {
@@ -203,6 +207,7 @@ h3 {
     width: 40%;
     font-size: 19px;
     line-height: 28px;
+    flex: 1 1 45%;
 }
   
 /* .skills {
