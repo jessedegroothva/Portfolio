@@ -1,11 +1,8 @@
 @font-face {
   font-family: 'Inter';
-  src: url('fonts/Inter-Regular.ttf') format('truetype');
+  src: url('/font/Inter-Medium.ttf') format('truetype');
+  font-weight: 500; /* specify the font weight as 500 for Inter-Medium */
   letter-spacing: 2px;
-}
-
-body {
-  font-family: 'Inter', serif;
 }
 
 * {

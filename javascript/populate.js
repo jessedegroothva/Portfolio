@@ -19,12 +19,10 @@ export function populateArt(data) {
         <div class="right">
         <div>
             <h3>${data[i].name}</h3>
-            <p>html</p>
-            <p>css</p>
-            <p>javascript</p>
+            <p>${data[i].language}</p>
         </div>
-        
             <p>${data[i].description}</p>
+            <a href="#overmij">View details</a>
         </div>
     `
     }
@@ -51,8 +49,8 @@ export function overMij() {
             
             <img src="https://framerusercontent.com/images/NGvo27Iq7kNI4qjFt2rMxDDf1Q.jpg" alt="Profile picture">
             
-                <p>Vanaf jonge leeftijd was ik geobsedeerd door Messi en droomde ik ervan om net zo'n getalenteerde voetballer te worden als hij. Ik werkte hard aan mijn vaardigheden. Helaas werd deze ambitieuze droom al snel verstoord toen ik werd ingedeeld in het F9-team van mijn voetbalclub.</p>
-                <p>Vanaf mijn vijfde levensjaar heb ik altijd al een passie gehad voor creativiteit. Toen ik op zeventienjarige leeftijd op het MBO zat, werd ik geïntroduceerd in media vormgeving en kreeg ik de kans om logo's te maken voor de Erasmus Universiteit. Deze ervaring was voor mij een eye-opener en ik begon al snel aan een ontwikkelingspad in design.</p>
+                <p class="p1">Vanaf jonge leeftijd was ik geobsedeerd door Messi en droomde ik ervan om net zo'n getalenteerde voetballer te worden als hij. Ik werkte hard aan mijn vaardigheden. Helaas werd deze ambitieuze droom al snel verstoord toen ik werd ingedeeld in het F9-team van mijn voetbalclub.</p>
+                <p class="p1">Vanaf mijn vijfde levensjaar heb ik altijd al een passie gehad voor creativiteit. Toen ik op zeventienjarige leeftijd op het MBO zat, werd ik geïntroduceerd in media vormgeving en kreeg ik de kans om logo's te maken voor de Erasmus Universiteit. Deze ervaring was voor mij een eye-opener en ik begon al snel aan een ontwikkelingspad in design.</p>
                 <p>Gedurende de afgelopen jaren heb ik stage gelopen bij Therapieland, Kubik en MIAX, waar ik het vertrouwen kreeg om met Fortune 500-bedrijven samen te werken. Niet slecht voor iemand die gewoon wat rondneust op het web!</p>
                 <p>Als grafisch ontwerper en iemand die altijd op zoek is naar oplossingen, wilde ik mijn vaardigheden uitbreiden. Tussen 2018 en 2022 kreeg ik de kans om als stagair te werken als grafisch ontwerper voor enkele van 's werelds meest vooraanstaande bedrijven, waaronder Rituals, Philips, Lego, Shell en DSM. Hoewel ik dankbaar ben voor deze kansen, begon ik te beseffen dat mijn passie vooral ligt bij UX/UI-ontwerp.</p>
                 <p>Het hoogtepunt van mijn carrière tot nu toe is het werken aan het ontwerp van meer dan 20 bedrijven. Deze ervaring heeft mij voorzien van onmisbare strategieën en heeft mij gevormd tot de groei-gedreven ontwerper en ondernemer die ik vandaag de dag ben.</p>
