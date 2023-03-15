@@ -19,7 +19,8 @@ header {
     height: 80vh;
     background-color: #1a27c9;
     padding: 0 148px;
-    width: 100vw;
+    width: 100%;
+    overflow: hidden;
 }
 
   
@@ -62,12 +63,13 @@ header {
   }
   
   header > div:nth-child(2) img {
-    width: 768px;
-    height: 762px;
+    width: 704px;
+    height: 700px;
     right: 1em;
-    bottom: 6.4em;
+    bottom: 3.97em;
     object-fit: cover;
     position: absolute;
+    /* pointer-events: none; */
   }
 
 @media only screen and (max-width: 1024px) {
@@ -278,7 +280,7 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 24px;
   background-color: #1a27c9;
   color: #fff;
 }
@@ -312,13 +314,22 @@ h3 {
   font-size: 1.2rem;
 }
 
-.navbar__button {
-  background-color: rgb(251, 222, 63);
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  font-size: 1.2rem;
+.navbar__item > .navbar__button {
   cursor: pointer;
+  background-color: rgb(251, 222, 63);
+  color: #333;
+  border: none;
+  border-radius: 4px;
+  padding: 0.8rem 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.navbar__item > .navbar__button:hover {
+  background-color: #ffc107;
+  color: #333;
 }
 
 /* ****** */
