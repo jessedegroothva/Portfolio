@@ -66,10 +66,10 @@ header {
     width: 704px;
     height: 700px;
     right: 1em;
-    bottom: 3.97em;
+    bottom: 4.87em;
     object-fit: cover;
     position: absolute;
-    /* pointer-events: none; */
+    pointer-events: none;
   }
 
 @media only screen and (max-width: 1024px) {
@@ -224,7 +224,7 @@ h3 {
 .body .right div:first-of-type {
     display: flex;
     justify-content: left;
-    align-items: end;
+    align-items: center;
     /* margin: 0px 0px 2280px 148px; */
     margin-bottom: 24px;
 }
