@@ -6,13 +6,13 @@ export function populateArt(data) {
     for (let i = 0; i < data.length; i++) {
         bodyContainer.innerHTML += `
         <div class="left">
-        <img src="https://via.placeholder.com/500x500" alt="Image">
+        <img src="https://via.placeholder.com/500x500" alt="Image"><!-- <img src="${data[i].owner.avatar_url}" alt="Avatar"> -->
             <article>
                 <div>
-                <h3>${data[i].description}</h3>
+                <h3>${data[i].name}</h3>
                 <p>Lorem ipsum dolor sit</p>
                 </div>
-                <p>Soort project</p>
+                <p>${data[i].topics}</p>
             </article>
         </div>
 
@@ -23,8 +23,8 @@ export function populateArt(data) {
             <p>css</p>
             <p>javascripta</p>
         </div>
-            
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat varius arcu, ac efficitur eros iaculis eget. Pellentesque ullamcorper odio a eros imperdiet, at cursus purus vestibulum. Nam in consequat mi, eu maximus quam. Duis vitae nisi eu ipsum pellentesque finibus a ut erat. In hac habitasse platea dictumst.</p>
+        
+            <p>${data[i].description}</p>
         </div>
     `
     }
