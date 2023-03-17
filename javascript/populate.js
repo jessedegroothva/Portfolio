@@ -6,7 +6,7 @@ export function populateArt(data) {
     for (let i = 0; i < data.length; i++) {
         bodyContainer.innerHTML += `
         <div class="left">
-        <img src="https://via.placeholder.com/500x500" alt="Image"><!-- <img src="${data[i].owner.avatar_url}" alt="Avatar"> -->
+        <img src="${data[i].owner.avatar_url}" alt="Avatar"><!-- <img src="https://via.placeholder.com/500x500" alt="Image"> -->
             <article>
                 <div>
                 <h3>${data[i].name}</h3>
@@ -34,11 +34,11 @@ export function overMij() {
     bodyContainer.innerHTML = ``;
     bodyContainer.insertAdjacentHTML('beforeend', `
     <nav class="navbar">
-      <a href="#" class="navbar__logo">Logo</a>
+      <a href="#" class="navbar__logo">Jesse</a>
       <input type="checkbox" class="navbar__menu-toggle">
       <ul class="navbar__list">
         <li class="navbar__item"><a href="./index.html">Home</a></li>
-        <li class="navbar__item"><a href="mailto:jesse.de.groot4@hva.nl" class="navbar__button">Neem contact op</a></li>
+        <li class="navbar__item"><a href="mailto:jesse.de.groot4@hva.nl" class="navbar__button">contact</a></li>
       </ul>
     </nav>
 
